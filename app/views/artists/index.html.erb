@@ -1,0 +1,10 @@
+<h1>Artists#index</h1>
+<h2>Our Table currently has music from the following artists: </h2>
+
+<ul>
+    <% @artists.each do |artist| %>
+        <li><%= artist.name %> is extremely loved on our platform XD</li>
+    <% end %>
+</ul>
+
+<p>Find me in app/views/artists/index.html.erb</p>

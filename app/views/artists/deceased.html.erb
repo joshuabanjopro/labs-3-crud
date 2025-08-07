@@ -1,0 +1,9 @@
+<h1>Artists#deceased</h1>
+<h2>Unfortunately the following artists passed away long before their time... RIP</h2>
+
+<ol>
+    <% @artists.each do |artist| %>
+        <li><%= artist.name %> was only <%= artist.age %> when they died... gone too soon :/ </li>
+    <% end %>
+</ol>
+<p>Find me in app/views/artists/deceased.html.erb</p>
